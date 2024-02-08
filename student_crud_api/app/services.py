@@ -5,6 +5,7 @@ students = []
 def add_student(data):
     id = len(students) + 1
     name = data['name']
+    print ("ddddddddddddddddddddd", name)
     age = data['age']
     student = Student(id, name, age)
     students.append(student)
